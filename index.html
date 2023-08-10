@@ -1,0 +1,58 @@
+<html>
+    <head>
+       <title>Infos for Hospital</title> 
+       <link rel="stylesheet" href="asset/css/style.css">
+    </head>
+    <body>
+        <h1>Details
+        </h1>
+    <form action="">
+        <label for="firstname">firstname</label>
+        <input type="text" name="firstname" id="firstname" placeholder="enter your firstname here">
+        <br><br>
+        <label for="secondname">secondname</label>
+        <input type="text" name="secondname" id="secondname" placeholder="enter your secondname here">
+        <br><br>
+        <label for="reg-number">register number</label>
+        <input type="text" name="reg-number" id="reg-number" placeholder="enter your register number here">
+        <br><br>
+        <label for="mobile number">mobile number</label>
+        <input type="text" name="mobile number" id="mobile number" placeholder="enter your mobile number here">
+        <br><br>
+        <label for="email">email</label>
+        <input type="text" name="email" id="email" placeholder="your mail id " required/>
+        <br><br>
+        <label for="gender">gender</label> <br><br>
+        <input type="radio" name="gender" id="male">male <br><br>
+        <input type="radio" name="gender" id="female">female <br><br>
+        
+        <label for="department">Choose a department:</label>
+        <select name="department" id="department">
+            <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE">EEE</option>
+        </select><BR></BR>
+        <label for="year">enter your year</label> 
+        <input type="datetime" name="year" id="year" placeholder="enter your year in college"><br> <br>
+        <label for="languages">languages known</label> <br>
+        <input type="checkbox" name="languages" id="C">C <br>
+        <input type="checkbox" name="languages" id="C++">C++  <br>
+        <input type="checkbox" name="languages" id="java">java <br>
+        <input type="checkbox" name="languages" id="python">python <br><br>
+
+        <label for="available slot">Choose a available slot:</label>
+        <select name="slot" id="slot">
+            <option value="10am">10am</option>
+            <option value="2pm">2pm</option>
+            <option value="5pm">5pm</option>
+        </select><BR></BR>
+        
+        <label for="resume">resume</label><br>
+        <input type="file" name="resume" id="resume" required accept=".pdf">
+        <br><br>
+
+        <button type="submit">save</button>
+    </form>    
+    </body>
+</html>
